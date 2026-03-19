@@ -1,60 +1,9 @@
 body {
     background-color: #000000;
     color: #ffffff;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     margin: 0;
-}
-
-header {
-    background-color: #000000;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    color: #ff4d4d;
-}
-
-nav a {
-    color: white;
-    margin: 15px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #ff4d4d;
-}
-
-section {
-    padding: 40px;
-}
-
-h2 {
-    color: #ff4d4d;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: #000;
-    color: #ff4d4d;
-    padding: 12px;
-}
-
-section { 
-    padding: 40px;
-    margin: 20px;
-    background-color: #000;
-    border-radius: 8px;
-}
-
-body {
-    background-color: #000000;
-    color: #ffffff;
-    font-family: Arial;
-    margin: 0;
+    padding-bottom: 70px;
 }
 
 header {
@@ -91,6 +40,28 @@ section {
 
 h2 {
     color: #ff4d4d;
+}
+
+.project {
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+.project-details {
+    margin-top: 10px;
 }
 
 footer {
